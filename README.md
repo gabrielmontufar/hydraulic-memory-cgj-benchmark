@@ -39,3 +39,9 @@ If `external_data/zenodo_italian_clays_3600964/Italian_Clays_Archive.xlsx` is pr
 `scripts/hmai_external_validation_and_sensitivity.py` pairs HMAI with Kinikles figure-level external response groups, reports HMAI-external correlations, compares ablated model variants against external gates and checks whether HMAI phase classes persist under alternative component weights.
 
 Additional QA files include `data/timestep_convergence.csv` and `data/model_parameters.csv`.
+
+## CGJ article-limit supplementary Word file
+
+The journal-submission version of the manuscript was rebalanced to satisfy the Canadian Geotechnical Journal research-article limit of 12,000 words and a maximum of 20 combined figures/tables. The main manuscript retains 6 tables and 14 figures. Tables moved out of the main manuscript and the former evidence-scorecard figure are provided in `supplementary/Supplementary_material_moved_tables_and_figure.docx`.
+
+The audit file `data/cgj_article_limit_rebalance_QA_20260524.csv` records the main-document counts after this rebalance and the supplementary material created for the moved display items.

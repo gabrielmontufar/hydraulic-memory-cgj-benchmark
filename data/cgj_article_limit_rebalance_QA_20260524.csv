@@ -1,0 +1,13 @@
+item,result
+main_docx_zip_bad_file,
+supp_docx_zip_bad_file,
+main_word_count_approx_xml,7620
+main_tables,6
+main_figures_drawings,14
+main_combined_figures_tables,20
+supplementary_tables,16
+supplementary_figures_drawings,1
+main_table_caption_count,6
+main_figure_caption_count,14
+moved_tables,"2,4,6,7,9,10,11,12,14,15,16,17,18,19,20,21"
+moved_figure,15
