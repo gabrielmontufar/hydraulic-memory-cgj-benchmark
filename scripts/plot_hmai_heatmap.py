@@ -71,7 +71,7 @@ def main() -> int:
 
     left, top = 305, 220
     cell_w, cell_h = 185, 110
-    legend_w, bottom_pad = 430, 210
+    legend_w, bottom_pad = 430, 340
     w = left + len(xvals) * cell_w + legend_w
     h = top + len(yvals) * cell_h + bottom_pad
     img = Image.new("RGB", (w, h), "white")

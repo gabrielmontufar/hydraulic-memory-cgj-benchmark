@@ -310,7 +310,7 @@ def draw_heat_table(summary: pd.DataFrame, out: Path):
     pivot = summary[summary["model"] == "full_hysteretic_damage"].pivot(
         index="suction_amp", columns="cyclic_amp", values="final_plastic_strain_index"
     )
-    w, h = 1200, 850
+    w, h = 1300, 1260
     img = Image.new("RGB", (w, h), "white")
     d = ImageDraw.Draw(img)
     title_font = font(34, bold=True)
@@ -342,7 +342,7 @@ def draw_metric_heat_table(summary: pd.DataFrame, value_col: str, title: str, va
     pivot = summary[summary["model"] == "full_hysteretic_damage"].pivot(
         index="suction_amp", columns="cyclic_amp", values=value_col
     )
-    w, h = 1200, 850
+    w, h = 1300, 1260
     img = Image.new("RGB", (w, h), "white")
     d = ImageDraw.Draw(img)
     title_font = font(34, bold=True)
