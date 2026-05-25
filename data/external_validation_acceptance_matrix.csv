@@ -1,0 +1,26 @@
+source,target,validation_type,metric,threshold,purpose,observed_value,status
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_median_pct,locked_50_50_saturation_group_holdout,spearman_rank_correlation,>= 0.70,monotonic trend agreement,1.0,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_median_pct,locked_50_50_saturation_group_holdout,mae_normalized,<= 0.20,average normalized error,0.1845499002191701,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_median_pct,locked_50_50_saturation_group_holdout,rmse_normalized,<= 0.30,normalized error energy,0.1875798618588227,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_median_pct,locked_50_50_saturation_group_holdout,bias_normalized,within +/-0.15,mean bias,-0.09229696898486064,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_median_pct,locked_50_50_saturation_group_holdout,coverage_fraction,>= 0.80,prediction inside digitized envelope/range,1.0,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_max_pct,locked_50_50_saturation_group_holdout,spearman_rank_correlation,>= 0.70,monotonic trend agreement,1.0,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_max_pct,locked_50_50_saturation_group_holdout,mae_normalized,<= 0.20,average normalized error,0.14986273966007177,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_max_pct,locked_50_50_saturation_group_holdout,rmse_normalized,<= 0.30,normalized error energy,0.17160922546100316,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_max_pct,locked_50_50_saturation_group_holdout,bias_normalized,within +/-0.15,mean bias,-0.12337722192282685,pass
+Kinikles et al. 2024 Figure 12(a),volumetric_strain_max_pct,locked_50_50_saturation_group_holdout,coverage_fraction,>= 0.80,prediction inside digitized envelope/range,0.6666666666666666,boundary
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,failure_domain_stress_test,spearman_rank_correlation,>= 0.70,monotonic trend agreement,-0.4857142857142857,boundary
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,failure_domain_stress_test,mae_normalized,<= 0.20,average normalized error,,not_applicable
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,failure_domain_stress_test,rmse_normalized,<= 0.30,normalized error energy,,not_applicable
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,failure_domain_stress_test,bias_normalized,within +/-0.15,mean bias,,not_applicable
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,failure_domain_stress_test,coverage_fraction,>= 0.80,prediction inside digitized envelope/range,,not_applicable
+Ng and Zhou 2014 cyclic unsaturated silt,suction_resilient_modulus_trend,trend_transfer_gate,spearman_rank_correlation,>= 0.70,monotonic trend agreement,1.0,pass
+Ng and Zhou 2014 cyclic unsaturated silt,suction_resilient_modulus_trend,trend_transfer_gate,mae_normalized,<= 0.20,average normalized error,,not_applicable
+Ng and Zhou 2014 cyclic unsaturated silt,suction_resilient_modulus_trend,trend_transfer_gate,rmse_normalized,<= 0.30,normalized error energy,,not_applicable
+Ng and Zhou 2014 cyclic unsaturated silt,suction_resilient_modulus_trend,trend_transfer_gate,bias_normalized,within +/-0.15,mean bias,,not_applicable
+Ng and Zhou 2014 cyclic unsaturated silt,suction_resilient_modulus_trend,trend_transfer_gate,coverage_fraction,>= 0.80,prediction inside digitized envelope/range,,not_applicable
+Dai and Zhou 2025 Canadian Geotechnical Journal,recent_suction_temperature_PSR_scope,scope_and_trend_transfer_gate,spearman_rank_correlation,>= 0.70,monotonic trend agreement,,not_applicable
+Dai and Zhou 2025 Canadian Geotechnical Journal,recent_suction_temperature_PSR_scope,scope_and_trend_transfer_gate,mae_normalized,<= 0.20,average normalized error,,not_applicable
+Dai and Zhou 2025 Canadian Geotechnical Journal,recent_suction_temperature_PSR_scope,scope_and_trend_transfer_gate,rmse_normalized,<= 0.30,normalized error energy,,not_applicable
+Dai and Zhou 2025 Canadian Geotechnical Journal,recent_suction_temperature_PSR_scope,scope_and_trend_transfer_gate,bias_normalized,within +/-0.15,mean bias,,not_applicable
+Dai and Zhou 2025 Canadian Geotechnical Journal,recent_suction_temperature_PSR_scope,scope_and_trend_transfer_gate,coverage_fraction,>= 0.80,prediction inside digitized envelope/range,,not_applicable

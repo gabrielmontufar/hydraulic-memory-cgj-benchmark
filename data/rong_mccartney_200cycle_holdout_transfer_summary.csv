@@ -1,0 +1,3 @@
+transfer_model,n_holdout_groups,rmse_pct,mae_pct,max_abs_error_pct,interpretation
+affine,6,0.6476444835241952,0.4563703883195685,1.2030561244054025,"Residual diagnostics are a boundary test: the transfer can reduce magnitude error, but it does not remove the adverse rank behavior in the unscaled proxy."
+quadratic,6,1.6061322049195124,1.1585660361814212,3.401901592993039,"Residual diagnostics are a boundary test: the transfer can reduce magnitude error, but it does not remove the adverse rank behavior in the unscaled proxy."

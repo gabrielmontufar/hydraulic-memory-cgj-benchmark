@@ -1,0 +1,2 @@
+cases,min_hmn,max_hmn,negligible_cases,relevant_cases,dominant_cases,status
+54,0.0,0.21177161068937636,6,21,27,pass

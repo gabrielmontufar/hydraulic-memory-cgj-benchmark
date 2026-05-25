@@ -1,0 +1,11 @@
+check,status,max_violation,detail
+finite_numeric_state,pass,0.0,All core state columns must be finite.
+saturation_bounds,pass,0.0,"Degree of saturation must remain in [0.08, 0.98]."
+bishop_chi_bounds,pass,0.0,"Bishop chi is clipped to the closed interval [0, 1]."
+effective_stress_identity,pass,5.684341886080802e-14,p_eff must equal p0 + chi*suction for the scalar benchmark.
+positive_stress_and_stiffness,pass,0.0,"Preconsolidation pressure, yield strength and secant stiffness must remain positive."
+damage_bounds,pass,0.0,Damage variables must remain non-negative and below their declared beta bounds.
+plastic_strain_monotonicity,pass,0.0,Plastic-strain index must be non-decreasing within every simulated case.
+shear_stress_unit_consistency,pass,5.7553961596568115e-12,Shear stress is computed in kPa as G(MPa)*1000*gamma plus the small demand marker term.
+dimensionless_groups_defined,pass,0.0,alpha*s max=5.69998; s/s0 max=1.89999; p_eff/p0 min=1.0298.
+hmai_bounds,pass,0.0,"HMAI must remain a bounded dimensionless contrast in [0, 1]."

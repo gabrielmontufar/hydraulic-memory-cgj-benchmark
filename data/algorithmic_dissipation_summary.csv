@@ -1,0 +1,2 @@
+checks,failed_checks,all_passed,max_violation,scope_note
+1296,0,True,0.0,Algorithmic monotonicity and nonnegative dissipation-proxy checks for the scripted benchmark; this is not a full thermodynamic proof for arbitrary loading paths.

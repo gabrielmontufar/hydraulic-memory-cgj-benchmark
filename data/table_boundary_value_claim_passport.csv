@@ -1,0 +1,3 @@
+evidence_added,file_or_script,what_it_supports,what_it_does_not_support
+1D hydraulic-memory proxy,scripts/boundary_1d_hydraulic_memory_proxy.py,Shows how hydraulic-memory state assumptions change an equivalent 1D stiffness/deformation indicator under identical cyclic demand.,"Not calibrated site response, not design approval, not FEM validation of a constitutive law."
+Blind digitized Kinikles Fig. 12(a) holdout,scripts/external_kinikles2024_fig12a_blind_holdout.py,Quantifies figure-level median and peak-envelope prediction errors under leave-one-saturation-group-out holdout.,Not raw cyclic time-history validation and not a soil-specific parameter calibration.

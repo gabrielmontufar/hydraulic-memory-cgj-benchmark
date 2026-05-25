@@ -1,0 +1,2 @@
+syntax_error_count,data_schema_error_count,missing_artifact_count,software_validation_status,zip_module_available,scope_note
+0,0,0,passed,True,Checks Python syntax and required CSV readability; ZIP extraction and manifest checks are verified separately.

@@ -1,0 +1,5 @@
+check,max_abs_error,mean_abs_error,status
+van_genuchten_retention,0.0,0.0,pass
+suction_hardening_closed_form,2.842170943040401e-14,6.7501559897209515e-15,pass
+primary_preconsolidation_excludes_damage,2.842170943040401e-14,6.7501559897209515e-15,pass
+non_calibrated_pc_damage_sensitivity_column,2.842170943040401e-14,4.618527782440651e-15,pass

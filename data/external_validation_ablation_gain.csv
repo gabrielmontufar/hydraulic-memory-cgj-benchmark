@@ -1,0 +1,3 @@
+source,target,constant_suction_rmse_pct,full_hysteretic_damage_rmse_pct,ablation_gain_fraction,ablation_gain_status,threshold
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,3.257564719822023,0.2806629400519758,0.9138427125195199,pass,full model improves RMSE by >=20% over constant-suction no-memory baseline
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,1.556227260458846,1.4611210362928615,0.061113326171874774,boundary,full model improves RMSE by >=20% over constant-suction no-memory baseline

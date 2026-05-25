@@ -1,0 +1,7 @@
+limit,expected_result,reproducible_check,claim_allowed
+s -> 0,Response approaches a low-suction or saturated-side benchmark state; suction hardening tends toward pc0.,preconsolidation_degradation_terms.csv includes suction_kpa=0 with pc_suction_only_kpa=pc0.,Checks limiting consistency only; not a saturated-soil calibration.
+Delta s -> 0,Hydraulic memory becomes negligible and HMAI should be zero or negligible.,hydraulic_memory_falsification_tests.csv zero_suction_amplitude_limit.,Supports the zero hydraulic-history limit.
+N -> 0,Cyclic damage increments vanish when no cyclic overstress is accumulated.,algorithmic_dissipation_audit.csv non-decreasing damage with no negative increments.,Checks update admissibility rather than fatigue-law calibration.
+M_h -> 0,Composite HMAI tends to zero when the hydraulic-memory gate is zero.,mathematical_consistency_tests.csv HMAI_zero_memory_limit.,"Memory-index reduction, not full model equivalence unless cyclic damage is also inactive."
+D -> 1,"The declared benchmark never allows damage to reach one, so stiffness remains positive.",mathematical_invariants_audit.csv positive_stress_and_stiffness and damage_bounds.,Positive-stiffness admissibility inside declared bounds.
+Sr -> 1,Bishop chi approaches one and the stress measure transitions coherently toward saturated-side effective stress.,mathematical_invariants_audit.csv bishop_chi_bounds and effective_stress_identity.,"Stress-measure consistency, not full saturated constitutive validation."

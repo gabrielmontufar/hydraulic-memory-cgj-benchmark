@@ -1,0 +1,2 @@
+source,validation_type,n_digitized_groups,rmse_pct,mae_pct,max_abs_error_pct,spearman_rank_correlation,observed_range_pct,model_proxy_range_pct,interpretation
+Rong/McCartney PEER 2022/05 Figure-level 200-cycle volumetric response,independent_200_cycle_figure_trend_gate,6,1.4611210362928617,1.298294624764995,2.590061159524157,-0.48571428571428577,1.82,0.4365091821355383,Provides an independent Rong/McCartney 200-cycle figure-level check. Agreement should be read as trend/envelope evidence only.

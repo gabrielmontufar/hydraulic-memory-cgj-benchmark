@@ -1,0 +1,4 @@
+test,rule,observed,status
+zero_suction_amplitude_limit,Cases with suction_amp_kpa=0 should remain negligible.,['negligible'],pass
+three_regime_phase_map,"HMAI grid must contain negligible, relevant and dominant classes before claiming a phase-map transition.","{'dominant': 27, 'relevant': 21, 'negligible': 6}",pass
+hmn_nonnegative,HMN must be nonnegative for the scripted benchmark grid.,min=0,pass

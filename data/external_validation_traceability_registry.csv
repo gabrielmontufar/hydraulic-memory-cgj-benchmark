@@ -1,0 +1,5 @@
+source,doi,local_trace,license_or_access,use
+Kinikles et al. 2024 Figure 12(a),10.1016/j.compgeo.2024.106113,external_data/kinikles_2024_unsaturated_seismic_compression and kinikles2024_fig12a_digitized_points.csv,open-access article figure; digitized values retained,locked validation and HMAI classification
+Rong and McCartney cyclic simple-shear sources,10.1051/e3sconf/20199208004 plus PEER 2022/05 report,external_data/rong_mccartney_unsaturated_cyclic and Rong/McCartney CSV gates,open PDFs; digitized/transcribed values retained,amplitude trend gate and failure-domain boundary
+Ng and Zhou 2014,10.1680/geot.14.P.015,external_data/ng_2013_unsaturated_resilient_modulus and ng2013_* CSV files,publication-level semiquantitative ratios,suction/cyclic-stress transfer gate
+Dai and Zhou 2025 Canadian Geotechnical Journal,10.1139/cgj-2024-0804,metadata only in this package,publisher article; no quantitative local extraction bundled,scope-transfer boundary for suction-temperature-principal-stress-rotation effects

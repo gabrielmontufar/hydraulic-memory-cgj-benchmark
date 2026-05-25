@@ -1,0 +1,112 @@
+file,check,status,detail
+scripts\algorithmic_dissipation_audit.py,python_syntax,pass,
+scripts\boundary_1d_hydraulic_memory_proxy.py,python_syntax,pass,
+scripts\external_baseline_comparison_scorecard.py,python_syntax,pass,
+scripts\external_chen2024_supplementary_calibration_audit.py,python_syntax,pass,
+scripts\external_cross_source_consistency_audit.py,python_syntax,pass,
+scripts\external_gabr2019_unsaturated_triaxial_holdout.py,python_syntax,pass,
+scripts\external_kinikles2024_cyclic_simple_shear_gate.py,python_syntax,pass,
+scripts\external_kinikles2024_fig12a_blind_holdout.py,python_syntax,pass,
+scripts\external_kinikles2024_fig12a_digitized_envelope.py,python_syntax,pass,
+scripts\external_kinikles2024_model_output_transfer_holdout.py,python_syntax,pass,
+scripts\external_locked_validation_protocol.py,python_syntax,pass,
+scripts\external_ng2013_resilient_modulus_check.py,python_syntax,pass,
+scripts\external_ng2013_semicalibrated_envelope.py,python_syntax,pass,
+scripts\external_rong_mccartney_200cycle_digitized_check.py,python_syntax,pass,
+scripts\external_rong_mccartney_200cycle_residual_diagnostics.py,python_syntax,pass,
+scripts\external_rong_mccartney_cyclic_program_audit.py,python_syntax,pass,
+scripts\external_rong_mccartney_drained_amplitude_digitized_gate.py,python_syntax,pass,
+scripts\external_validation_protocol.py,python_syntax,pass,
+scripts\external_validation_scorecard.py,python_syntax,pass,
+scripts\external_zenodo_clay_range_check.py,python_syntax,pass,
+scripts\hmai_external_validation_and_sensitivity.py,python_syntax,pass,
+scripts\hydraulic_memory_amplification_index.py,python_syntax,pass,
+scripts\hydraulic_memory_number_transition.py,python_syntax,pass,
+scripts\hydro_validation_envelope.py,python_syntax,pass,
+scripts\mathematical_invariants_audit.py,python_syntax,pass,
+scripts\parameter_identifiability_sensitivity.py,python_syntax,pass,
+scripts\plot_hmai_heatmap.py,python_syntax,pass,
+scripts\refresh_manifest_sha256.py,python_syntax,pass,
+scripts\run_unsat_cyclic_benchmark.py,python_syntax,pass,
+scripts\software_validation.py,python_syntax,pass,
+scripts\theoretical_admissibility_tests.py,python_syntax,pass,
+data/benchmark_summary.csv,csv_read,pass,rows=216 cols=13
+data/benchmark_results.csv,csv_read,pass,rows=155520 cols=24
+data/pc_consistency_audit.csv,csv_read,pass,rows=720 cols=7
+data/external_validation_metrics.csv,csv_read,pass,rows=3 cols=10
+data/swcc_envelope_validation.csv,csv_read,pass,rows=200 cols=6
+data/openseespy_cyclic_crosscheck.csv,csv_read,pass,rows=1 cols=6
+data/monte_carlo_sensitivity_summary.csv,csv_read,pass,rows=4 cols=5
+data/claim_boundary_negative_tests.csv,csv_read,pass,rows=6 cols=4
+data/external_data_manifest.csv,csv_read,pass,rows=15 cols=5
+data/zenodo_italian_clays_range_check.csv,csv_read,pass,rows=5 cols=19
+data/ng2013_resilient_modulus_semiquant_checks.csv,csv_read,pass,rows=4 cols=11
+data/ng2013_suction_semicalibrated_envelope.csv,csv_read,pass,rows=4 cols=13
+data/ng2013_cyclic_stress_semicalibrated_envelope.csv,csv_read,pass,rows=2 cols=13
+data/ng2013_semicalibrated_envelope_summary.csv,csv_read,pass,rows=1 cols=18
+data/gabr2019_unsaturated_triaxial_transcribed.csv,csv_read,pass,rows=86 cols=16
+data/gabr2019_unsaturated_triaxial_holdout_predictions.csv,csv_read,pass,rows=86 cols=18
+data/gabr2019_unsaturated_triaxial_holdout_summary.csv,csv_read,pass,rows=1 cols=24
+data/kinikles2024_cyclic_simple_shear_test_matrix.csv,csv_read,pass,rows=11 cols=16
+data/kinikles2024_cyclic_gate_summary.csv,csv_read,pass,rows=1 cols=15
+data/kinikles2024_fig12a_digitized_points.csv,csv_read,pass,rows=22 cols=16
+data/kinikles2024_fig12a_digitized_envelope_summary.csv,csv_read,pass,rows=6 cols=6
+data/kinikles2024_fig12a_digitized_gate_summary.csv,csv_read,pass,rows=1 cols=10
+data/kinikles2024_fig12a_blind_holdout_predictions.csv,csv_read,pass,rows=12 cols=14
+data/kinikles2024_fig12a_blind_holdout_summary.csv,csv_read,pass,rows=2 cols=9
+data/kinikles2024_model_output_transfer_features.csv,csv_read,pass,rows=6 cols=12
+data/kinikles2024_model_output_transfer_holdout_predictions.csv,csv_read,pass,rows=12 cols=17
+data/kinikles2024_model_output_transfer_holdout_summary.csv,csv_read,pass,rows=2 cols=9
+data/recent_cyclic_model_comparison_gate.csv,csv_read,pass,rows=3 cols=7
+data/chen2024_supplementary_inventory.csv,csv_read,pass,rows=7 cols=11
+data/chen2024_sparc_geotechnical_properties.csv,csv_read,pass,rows=9 cols=7
+data/chen2024_sparc_monotonic_test_conditions.csv,csv_read,pass,rows=7 cols=11
+data/chen2024_supplementary_calibration_summary.csv,csv_read,pass,rows=1 cols=12
+data/rong2021_undrained_css_test_program.csv,csv_read,pass,rows=12 cols=15
+data/rong2019_drained_css_test_program.csv,csv_read,pass,rows=16 cols=13
+data/rong_mccartney_cyclic_trend_claims.csv,csv_read,pass,rows=3 cols=5
+data/rong_mccartney_cyclic_program_summary.csv,csv_read,pass,rows=1 cols=13
+data/rong_mccartney_200cycle_transcribed_points.csv,csv_read,pass,rows=6 cols=4
+data/rong_mccartney_digitized_200cycle_validation.csv,csv_read,pass,rows=6 cols=11
+data/rong_mccartney_digitized_200cycle_validation_summary.csv,csv_read,pass,rows=1 cols=10
+data/rong_mccartney_200cycle_residual_diagnostics.csv,csv_read,pass,rows=6 cols=19
+data/rong_mccartney_200cycle_holdout_transfer_predictions.csv,csv_read,pass,rows=12 cols=7
+data/rong_mccartney_200cycle_holdout_transfer_summary.csv,csv_read,pass,rows=2 cols=6
+data/rong_mccartney_200cycle_failure_mode_summary.csv,csv_read,pass,rows=1 cols=12
+data/rong_mccartney_drained_amplitude_digitized_points.csv,csv_read,pass,rows=20 cols=5
+data/rong_mccartney_drained_amplitude_digitized_group_summary.csv,csv_read,pass,rows=4 cols=9
+data/rong_mccartney_drained_amplitude_digitized_gate_summary.csv,csv_read,pass,rows=4 cols=10
+data/boundary_1d_layer_inputs.csv,csv_read,pass,rows=10 cols=7
+data/boundary_1d_case_summary.csv,csv_read,pass,rows=4 cols=11
+data/boundary_1d_depth_profiles.csv,csv_read,pass,rows=40 cols=6
+data/boundary_1d_monte_carlo_samples.csv,csv_read,pass,rows=1000 cols=5
+data/boundary_1d_monte_carlo_summary.csv,csv_read,pass,rows=4 cols=4
+data/table_boundary_value_claim_passport.csv,csv_read,pass,rows=2 cols=4
+data/parameter_identifiability_sensitivity.csv,csv_read,pass,rows=6 cols=10
+data/parameter_identifiability_summary.csv,csv_read,pass,rows=3 cols=2
+data/hydraulic_memory_amplification_index.csv,csv_read,pass,rows=54 cols=20
+data/hydraulic_memory_amplification_index_summary.csv,csv_read,pass,rows=1 cols=9
+data/mathematical_invariants_audit.csv,csv_read,pass,rows=10 cols=4
+data/mathematical_invariants_summary.csv,csv_read,pass,rows=1 cols=7
+data/algorithmic_dissipation_audit.csv,csv_read,pass,rows=1296 cols=7
+data/algorithmic_dissipation_summary.csv,csv_read,pass,rows=1 cols=5
+data/mathematical_consistency_tests.csv,csv_read,pass,rows=13 cols=4
+data/theoretical_admissibility_propositions.csv,csv_read,pass,rows=6 cols=4
+data/physical_limit_checks.csv,csv_read,pass,rows=6 cols=4
+data/hmai_hmn_derivation_audit.csv,csv_read,pass,rows=2 cols=6
+data/preconsolidation_degradation_terms.csv,csv_read,pass,rows=5 cols=5
+data/external_cross_source_consistency_audit.csv,csv_read,pass,rows=6 cols=8
+data/external_cross_source_consistency_summary.csv,csv_read,pass,rows=1 cols=7
+data/external_cross_source_validation_scorecard.csv,csv_read,pass,rows=8 cols=8
+data/external_baseline_comparison_scorecard.csv,csv_read,pass,rows=8 cols=8
+data/external_baseline_comparison_summary.csv,csv_read,pass,rows=2 cols=7
+data/external_validation_protocol_registry.csv,csv_read,pass,rows=4 cols=6
+data/external_locked_holdout_predictions.csv,csv_read,pass,rows=6 cols=16
+data/external_locked_holdout_metrics.csv,csv_read,pass,rows=5 cols=14
+data/external_validation_acceptance_matrix.csv,csv_read,pass,rows=25 cols=8
+data/hmai_external_paired_cases.csv,csv_read,pass,rows=6 cols=9
+data/hmai_external_correlation.csv,csv_read,pass,rows=8 cols=6
+data/hmai_external_ablation_scorecard.csv,csv_read,pass,rows=2 cols=9
+data/hmai_weight_sensitivity.csv,csv_read,pass,rows=30 cols=8
+data/hmai_validation_summary.csv,csv_read,pass,rows=1 cols=9
+data/manifest_sha256.csv,csv_read,pass,rows=186 cols=3

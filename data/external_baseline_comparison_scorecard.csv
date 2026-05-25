@@ -1,0 +1,9 @@
+source,target,model,n,rmse_pct,mae_pct,bias_pct,spearman_rank_correlation
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,constant_suction,12,3.257564719822023,1.503047933196078,1.1975814285583957,0.2937062937062937
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,no_hysteresis,12,0.24796020668480293,0.16291621570872009,-0.017790674961851428,0.9230769230769231
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,hysteresis_only,12,0.2664739063504307,0.17217932327390087,-0.0042304343579161185,0.9230769230769231
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,full_hysteretic_damage,12,0.28066294005197584,0.1774577011830248,-0.015660830782298407,0.9230769230769231
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,constant_suction,6,1.556227260458846,1.4461235066498566,-1.4461235066498566,-0.50709255283711
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,no_hysteresis,6,1.5159110192678753,1.387222510731922,-1.387222510731922,-0.48571428571428577
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,hysteresis_only,6,1.4711242900322024,1.3117581138915408,-1.3117581138915408,-0.48571428571428577
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,full_hysteretic_damage,6,1.4611210362928617,1.298294624764995,-1.298294624764995,-0.48571428571428577

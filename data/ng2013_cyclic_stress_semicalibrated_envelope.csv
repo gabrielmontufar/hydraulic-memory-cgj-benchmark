@@ -1,0 +1,3 @@
+check_family,source,source_url,suction_kpa,cyclic_stress_kpa,raw_model_stiffness_mpa,raw_model_ratio_vs_q30,stress_correction_factor,semicalibrated_stiffness_mpa,semicalibrated_ratio_vs_q30,external_target,used_for_parameter_fit,holdout_status
+cyclic stress semi-calibration,Ng et al. resilient-modulus evidence,https://www.cfms-sols.org/sites/default/files/Actes/1055-1058.pdf,30.0,30.0,44.471785943466074,1.0,1.0,44.471785943466074,1.0,baseline,False,not_holdout
+cyclic stress semi-calibration,Ng et al. resilient-modulus evidence,https://www.cfms-sols.org/sites/default/files/Actes/1055-1058.pdf,30.0,70.0,31.868548287201914,0.7166014948829402,0.8372854428639064,26.68307156607964,0.5999999999999999,about 0.60 relative to qcyc=30 kPa,True,not_holdout

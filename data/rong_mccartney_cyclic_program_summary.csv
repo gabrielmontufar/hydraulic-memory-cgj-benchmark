@@ -1,0 +1,2 @@
+source_family,undrained_test_program_rows,drained_test_program_rows,suction_min_kpa,suction_max_kpa,saturation_min,saturation_max,cyclic_strain_min_pct,cyclic_strain_max_pct,cycles,direct_cyclic_experiments_identified,public_raw_time_histories_in_downloaded_sources,mrnb_interpretation
+Rong/McCartney unsaturated cyclic simple shear,12,16,0.04,100.0,0.0,0.94,0.3,5.0,200,True,False,direct cyclic experimental state-space coverage is documented; a 95-100 validation score still requires digitized or raw response histories

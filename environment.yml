@@ -1,0 +1,13 @@
+name: hydro-memory-cgj
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - pillow
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - openseespy

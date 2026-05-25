@@ -1,0 +1,2 @@
+source,doi,supplementary_docx_present,supplementary_tables_extracted,sparc_properties_rows,sparc_monotonic_condition_rows,suction_min_kpa,suction_max_kpa,saturation_min_pct,saturation_max_pct,raw_cyclic_time_histories_found_in_supplement,mrnb_interpretation
+Chen et al. 2024,10.1016/j.compgeo.2024.106500,True,7,9,7,1.0,151.0,28.19,87.8,False,recent calibrated multi-surface comparator documented; raw cyclic validation data still not public in the supplementary file

@@ -1,0 +1,3 @@
+source,target,best_rmse_model,best_rmse_pct,full_model_rmse_pct,full_model_best,interpretation
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,no_hysteresis,0.24796020668480293,0.28066294005197584,False,Do not claim calibrated superiority unless full_model_best is true.
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,full_hysteretic_damage,1.4611210362928617,1.4611210362928617,True,Do not claim calibrated superiority unless full_model_best is true.

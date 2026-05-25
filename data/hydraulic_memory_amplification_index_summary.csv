@@ -1,0 +1,2 @@
+cases,max_hmai,max_hmai_suction_amp_kpa,max_hmai_cyclic_amp,negligible_cases,relevant_cases,dominant_cases,component_weights,scope_note
+54,0.4308743540572886,100.0,0.02,6,21,27,0.40 plastic contrast; 0.30 stiffness-loss contrast; 0.30 hydraulic-path intensity,"Composite HMAI is a bounded reproducible phase-map contrast used to diagnose when hydraulic memory materially changes cyclic response. It is not raw-data validation, site response, or a universal design coefficient."

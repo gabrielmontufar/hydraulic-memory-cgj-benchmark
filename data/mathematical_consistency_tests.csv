@@ -1,0 +1,14 @@
+test,expected,observed,status
+HMAI_bounded,"All HMAI values in [0,1]",min=0; max=0.430874,pass
+HMN_dimensionless_nonnegative,HMN built only from like-unit ratios and nonnegative on grid,min=0; max=0.211772,pass
+HMAI_zero_memory_limit,Zero suction-amplitude cases are negligible,['negligible'],pass
+nonnegative_monotone_damage,Hydraulic and seismic damage are nonnegative and non-decreasing,"{'finite_pseudo_work': True, 'hydraulic_damage_non_decreasing': True, 'nonnegative_damage_dissipation_proxy': True, 'plastic_strain_non_decreasing': True, 'positive_secant_stiffness': True, 'seismic_damage_non_decreasing': True}",pass
+positive_stiffness,All secant stiffness values remain positive,min_G=33.8125 MPa,pass
+unique_phase_classification,Every HMAI maps to exactly one of negligible/relevant/dominant,"{'dominant': 27, 'relevant': 21, 'negligible': 6}",pass
+physical_limit_table_complete,Six required limits are present,"['s -> 0', 'Delta s -> 0', 'N -> 0', 'M_h -> 0', 'D -> 1', 'Sr -> 1']",pass
+weight_sensitivity_retained,HMAI classes checked under alternative component weights,rows=30; variants=5,pass
+primary_preconsolidation_excludes_damage,Primary pc equals suction-only pc; damage sensitivity remains audit column,max_abs_error=0,pass
+s_zero_preconsolidation_limit,pc_s(s=0)=pc0,abs_error=0,pass
+propositions_complete,Six admissibility propositions with short proof,rows=6,pass
+existing_invariant_audit_passes,Prior mathematical invariant audit remains pass,"{'finite_numeric_state': 'pass', 'saturation_bounds': 'pass', 'bishop_chi_bounds': 'pass', 'effective_stress_identity': 'pass', 'positive_stress_and_stiffness': 'pass', 'damage_bounds': 'pass', 'plastic_strain_monotonicity': 'pass', 'shear_stress_unit_consistency': 'pass', 'dimensionless_groups_defined': 'pass', 'hmai_bounds': 'pass'}",pass
+dai_zhou_year_unified_in_supplement,No Dai and Zhou 2026 string remains in selected public supplement files,none,pass

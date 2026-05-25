@@ -1,0 +1,2 @@
+source,digitized_points,saturation_groups,max_digitized_volumetric_strain_pct,saturation_at_max_group,median_peak_group,cycle_assignment_reliable,raw_time_history_available,validation_use,prohibited_claim
+Kinikles et al. 2024 Figure 12(a),22,6,1.8715277777777777,0.4,0.4,False,False,partial digitized direct-cyclic envelope; supports comparison and future calibration target only,Do not claim blind calibrated prediction of Kinikles et al. response histories from this digitization alone.

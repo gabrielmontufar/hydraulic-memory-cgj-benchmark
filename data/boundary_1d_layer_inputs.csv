@@ -1,0 +1,11 @@
+layer_id,mid_depth_m,thickness_m,base_shear_modulus_mpa,cyclic_shear_strain_pct,hydraulic_history,claim_boundary
+1,0.5,1.0,87.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+2,1.5,1.0,91.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+3,2.5,1.0,95.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+4,3.5,1.0,99.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+5,4.5,1.0,103.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+6,5.5,1.0,107.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+7,6.5,1.0,111.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+8,7.5,1.0,115.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+9,8.5,1.0,119.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model
+10,9.5,1.0,123.0,0.2,seasonal wetting-drying before cyclic loading,1D proxy layer; not a calibrated site-response model

@@ -1,0 +1,8 @@
+source,source_url,doi,soil,test_case,initial_degree_saturation_pct,gravimetric_water_content_pct,initial_void_ratio,initial_suction_kpa,confining_pressure_kpa,raw_response_time_history_in_supplement
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M1,28.19,8.32,0.797,1.0,50.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M2,52.01,8.38,0.435,70.0,50.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M3,49.13,7.9,0.434,131.0,80.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M4,87.8,9.63,0.296,3.0,50.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M5,56.37,8.1,0.388,111.0,50.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M6,56.89,7.9,0.375,151.0,80.0,False
+Chen et al. 2024 supplementary material,https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24004361-mmc1.docx,10.1016/j.compgeo.2024.106500,SPARC sand,M7,57.24,7.98,0.376,134.0,50.0,False

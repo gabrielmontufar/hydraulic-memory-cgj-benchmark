@@ -1,0 +1,2 @@
+case,openseespy_status,method,native_final_to_initial_stiffness_ratio,classification_match,limitation
+critical_full_hysteretic_damage_100kpa_0p20,available_not_required_for_unsaturated_material_point,OpenSeesPy import check plus native benchmark stiffness-ratio handoff,0.8160589929649822,True,OpenSeesPy is not used to claim unsaturated constitutive validation; it is an optional free-software cross-check layer.

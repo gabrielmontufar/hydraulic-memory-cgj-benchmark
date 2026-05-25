@@ -1,0 +1,6 @@
+suction_kpa,pc_suction_only_kpa,preconsolidation_effective_kpa,pc_damage_sensitivity_floor_kpa,interpretation
+0.0,120.0,120.0,72.0,pc_s is the primary suction-hardening preconsolidation term; damage sensitivity is retained as an audit column rather than the primary law.
+3.0,121.84446925987238,121.84446925987238,73.10668155592343,pc_s is the primary suction-hardening preconsolidation term; damage sensitivity is retained as an audit column rather than the primary law.
+30.0,136.37153010277143,136.37153010277143,81.82291806166286,pc_s is the primary suction-hardening preconsolidation term; damage sensitivity is retained as an audit column rather than the primary law.
+90.0,160.05168249715743,160.05168249715743,96.03100949829445,pc_s is the primary suction-hardening preconsolidation term; damage sensitivity is retained as an audit column rather than the primary law.
+190.0,186.43794998832752,186.43794998832752,111.8627699929965,pc_s is the primary suction-hardening preconsolidation term; damage sensitivity is retained as an audit column rather than the primary law.

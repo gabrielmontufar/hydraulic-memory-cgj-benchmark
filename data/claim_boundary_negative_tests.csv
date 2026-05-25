@@ -1,0 +1,7 @@
+claim_phrase,expected_action,reason,false_certified
+validated constitutive law,block,No soil-specific calibration or blind validation is supplied.,False
+calibrated predictive model,block,"Parameters are declared benchmark values, not fitted to a named soil.",False
+seismic safety,block,Material-point cyclic loading is not a site-response or safety assessment.,False
+site-response simulation,block,No boundary-value wave propagation or ground-motion history is solved.,False
+plausibility-envelope benchmark,allow,This is the intended scoped claim; it is not calibrated validation.,False
+reproducible material-point framework,allow,This is supported by the script and regenerated CSV outputs.,False

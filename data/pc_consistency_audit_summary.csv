@@ -1,0 +1,2 @@
+audit_item,status,recommended_manuscript_text,max_difference_if_damage_were_applied_kpa,final_pc_suction_only_kpa,final_pc_damage_formula_kpa
+declared_benchmark_pc_definition,resolved_by_reframing,"Use pc_s(s) for suction hardening in the primary benchmark. Dh and Ds degrade stiffness and plastic-strain accumulation, not pc_s. The pc_if_damage_sensitivity_kpa column is a non-calibrated sensitivity audit only.",27.44226675070749,131.00621387840812,103.85426185634688

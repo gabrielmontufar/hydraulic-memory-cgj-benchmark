@@ -1,0 +1,3 @@
+object,definition,components_dimensionless,bounded,zero_memory_result,interpretation
+HMAI,"0.40*plastic_component + 0.30*stiffness_component + 0.30*hydraulic_path_component, multiplied by the hydraulic-history gate.",True,True,['negligible'],Bounded contrast between hysteresis-only hydraulic-memory response and no-hysteresis suction response.
+HMN,"(Delta s/s0)*((Sr,max-Sr,min)/(Sr,sat-Sr,res))/(gamma_cyc/gamma_y0)",True,,min=0,Dimensionless hydraulic-memory intensity coordinate for the scripted benchmark grid.

@@ -1,0 +1,13 @@
+transfer_model,holdout_initial_degree_saturation,observed_pct,predicted_pct,absolute_error_pct,squared_error,claim_boundary
+affine,0.0,2.6,1.3969438755945975,1.2030561244054025,1.4473440384693474,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+affine,0.117,1.08,2.0265158448402127,0.9465158448402127,0.8958922445335815,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+affine,0.206,1.32,1.7101777295193832,0.3901777295193831,0.1522386606129009,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+affine,0.3,1.55,1.4810630523035564,0.06893694769644365,0.004752302757702207,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+affine,0.4,1.38,1.2518157991121168,0.12818420088788307,0.016431189357265164,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+affine,0.56,0.78,0.7813514825680858,0.0013514825680858156,1.8265051318398311e-06,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.0,2.6,1.068605857158996,1.531394142841004,2.3451680207277334,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.117,1.08,2.2010803232361096,1.1210803232361095,1.2568210911471798,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.206,1.32,1.7032975731836522,0.3832975731836521,0.14691702960847713,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.3,1.55,1.403065776817387,0.14693422318261296,0.021589665942277913,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.4,1.38,1.0132116383478906,0.36678836165210926,0.1345337022434385,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.
+quadratic,0.56,0.78,4.181901592993039,3.401901592993039,11.572934448408578,Leave-one-saturation-group-out transfer on figure-level data; not raw time-history calibration.

@@ -1,0 +1,8 @@
+evidence_dimension,prior_literature_covers,article117_cgj_package_covers,novelty_role
+hydraulic hysteresis,yes,yes,"background component, not sufficient alone"
+cyclic unsaturated loading,yes,yes,"background component, not sufficient alone"
+reproducible HMAI index,partial_or_no,yes,core contribution
+HMN diagnostic number,no,yes,core contribution
+three-regime phase map,partial_or_no,yes,core contribution
+explicit falsification boundaries,partial,yes,claim-boundary contribution
+open reproducibility package,partial,yes,reviewer-verifiability contribution

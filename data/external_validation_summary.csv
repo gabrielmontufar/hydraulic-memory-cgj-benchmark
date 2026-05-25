@@ -1,0 +1,2 @@
+traceable_external_points,numeric_validation_metric_rows,strict_pass_rows,strict_boundary_rows,strict_fail_rows,hmai_classification_agreement_fraction,hmai_classification_status,ablation_gain_pass_rows,ablation_gain_rows,dai_zhou_status,overall_interpretation
+12,4,2,3,0,1.0,pass,1,2,boundary_metadata_only_no_quantitative_local_extraction,The external validation protocol strengthens traceable external evidence but remains claim-bounded; boundaries are retained for Rong/McCartney 200-cycle and Dai/Zhou scope-transfer evidence.

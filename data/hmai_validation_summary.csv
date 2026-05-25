@@ -1,0 +1,2 @@
+hmai_external_correlation_rows,max_abs_spearman,positive_spearman_count,ablation_targets,full_beats_constant_suction_count,full_model_best_count,weight_sensitivity_rows,phase_class_agreement_fraction,claim_boundary
+8,0.8804062740424288,2,2,2,1,30,1.0,"HMAI is externally constrained by figure-level trends, ablation outcomes and weight sensitivity; it is not an experimentally calibrated design index."

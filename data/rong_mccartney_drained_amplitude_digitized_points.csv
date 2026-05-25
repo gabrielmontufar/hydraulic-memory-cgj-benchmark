@@ -1,0 +1,21 @@
+cyclic_shear_strain_amplitude_pct,matric_suction_kpa,initial_degree_saturation,observed_volumetric_strain_200_cycles_pct,source_series
+0.3,0.0,1.0,0.1,dry condition
+0.3,0.0,0.56,0.15,psi=2 kPa
+0.3,4.0,0.3,0.2,psi=4 kPa
+0.3,6.0,0.2,0.15,psi=6 kPa
+0.3,10.0,0.12,0.1,psi=10 kPa
+1.0,0.0,1.0,1.85,dry condition
+1.0,0.0,0.56,1.75,psi=2 kPa
+1.0,4.0,0.3,1.55,psi=4 kPa
+1.0,6.0,0.2,1.65,psi=6 kPa
+1.0,10.0,0.12,1.45,psi=10 kPa
+3.0,0.0,1.0,5.2,dry condition
+3.0,0.0,0.56,4.85,psi=2 kPa
+3.0,4.0,0.3,5.05,psi=4 kPa
+3.0,6.0,0.2,4.7,psi=6 kPa
+3.0,10.0,0.12,4.1,psi=10 kPa
+5.0,0.0,1.0,7.65,dry condition
+5.0,0.0,0.56,7.85,psi=2 kPa
+5.0,4.0,0.3,8.55,psi=4 kPa
+5.0,6.0,0.2,7.2,psi=6 kPa
+5.0,10.0,0.12,5.85,psi=10 kPa

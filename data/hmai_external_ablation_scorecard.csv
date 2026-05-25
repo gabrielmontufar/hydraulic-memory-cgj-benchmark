@@ -1,0 +1,3 @@
+source,target,best_model,best_rmse_pct,full_model_rmse_pct,constant_suction_rmse_pct,full_beats_constant_suction,full_model_best,interpretation
+Kinikles et al. 2024 Figure 12(a),leave_one_saturation_group_out_transfer,no_hysteresis,0.2479602066848029,0.2806629400519758,3.257564719822023,True,False,Ablation evidence supports HMAI only where removing hydraulic memory or damage worsens external fit; mixed outcomes are retained as boundaries.
+Rong/McCartney PEER 2022/05 200-cycle figure gate,volumetric_strain_200_cycles_pct,full_hysteretic_damage,1.4611210362928615,1.4611210362928615,1.556227260458846,True,True,Ablation evidence supports HMAI only where removing hydraulic memory or damage worsens external fit; mixed outcomes are retained as boundaries.

@@ -1,0 +1,2 @@
+n_cross_source_checks,pass_count,boundary_count,review_count,claim_consistency_score_0_to_1,raw_time_history_gap_retained,interpretation
+6,5,1,0,0.9166666666666666,True,Cross-source audit supports a bounded plausibility-envelope claim while retaining adverse saturation-rank evidence and the absence of public raw cyclic response histories.
