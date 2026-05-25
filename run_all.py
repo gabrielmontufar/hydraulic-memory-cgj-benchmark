@@ -7,7 +7,7 @@ import sys
 import time
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).parent
 SCRIPTS = ROOT / "scripts"
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)

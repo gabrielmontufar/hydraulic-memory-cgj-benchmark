@@ -333,7 +333,8 @@ def draw_heat_table(summary: pd.DataFrame, out: Path):
             d.text((x0 + 45, y0 + 45), f"{val:.4f}", fill="#111111", font=cell_font)
     for j, c_amp in enumerate(pivot.columns):
         d.text((left + j * cw + 45, top - 45), f"{c_amp:.2f}g", fill="#111111", font=label_font)
-    d.text((left + 190, h - 75), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
+    x_label_y = top + len(pivot.index) * ch + 95
+    d.text((left + 190, x_label_y), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
     d.text((35, top + 210), "suction amplitude", fill="#111111", font=label_font)
     img.save(out)
 
@@ -366,7 +367,8 @@ def draw_metric_heat_table(summary: pd.DataFrame, value_col: str, title: str, va
             d.text((x0 + 45, y0 + 45), value_fmt.format(val), fill="#111111", font=cell_font)
     for j, c_amp in enumerate(pivot.columns):
         d.text((left + j * cw + 45, top - 45), f"{c_amp:.2f}g", fill="#111111", font=label_font)
-    d.text((left + 190, h - 75), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
+    x_label_y = top + len(pivot.index) * ch + 95
+    d.text((left + 190, x_label_y), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
     d.text((35, top + 210), "suction amplitude", fill="#111111", font=label_font)
     img.save(out)
 
