@@ -335,7 +335,15 @@ def draw_heat_table(summary: pd.DataFrame, out: Path):
         d.text((left + j * cw + 45, top - 45), f"{c_amp:.2f}g", fill="#111111", font=label_font)
     x_label_y = top + len(pivot.index) * ch + 95
     d.text((left + 190, x_label_y), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
-    d.text((35, top + 210), "suction amplitude", fill="#111111", font=label_font)
+    # Keep the y-axis label outside the row tick labels; a horizontal label
+    # crowds the 2-5 kPa rows in the embedded manuscript figure.
+    y_label = "suction amplitude"
+    box = d.textbbox((0, 0), y_label, font=label_font)
+    label_img = Image.new("RGBA", (box[2] - box[0] + 20, box[3] - box[1] + 20), (255, 255, 255, 0))
+    label_draw = ImageDraw.Draw(label_img)
+    label_draw.text((10, 10), y_label, fill="#111111", font=label_font)
+    label_img = label_img.rotate(90, expand=True)
+    img.paste(label_img, (8, int(top + len(pivot.index) * ch / 2 - label_img.height / 2)), label_img)
     img.save(out)
 
 
@@ -369,7 +377,13 @@ def draw_metric_heat_table(summary: pd.DataFrame, value_col: str, title: str, va
         d.text((left + j * cw + 45, top - 45), f"{c_amp:.2f}g", fill="#111111", font=label_font)
     x_label_y = top + len(pivot.index) * ch + 95
     d.text((left + 190, x_label_y), "cyclic stress ratio amplitude", fill="#111111", font=label_font)
-    d.text((35, top + 210), "suction amplitude", fill="#111111", font=label_font)
+    y_label = "suction amplitude"
+    box = d.textbbox((0, 0), y_label, font=label_font)
+    label_img = Image.new("RGBA", (box[2] - box[0] + 20, box[3] - box[1] + 20), (255, 255, 255, 0))
+    label_draw = ImageDraw.Draw(label_img)
+    label_draw.text((10, 10), y_label, fill="#111111", font=label_font)
+    label_img = label_img.rotate(90, expand=True)
+    img.paste(label_img, (8, int(top + len(pivot.index) * ch / 2 - label_img.height / 2)), label_img)
     img.save(out)
 
 
